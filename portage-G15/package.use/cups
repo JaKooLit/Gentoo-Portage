@@ -1,0 +1,10 @@
+net-print/cups zeroconf -usb
+
+media-gfx/epsonscan2 bundled-libs
+
+# required by net-print/cups-filters-1.28.17-r1::gentoo[postscript]
+# required by net-print/cups-2.4.2-r7::gentoo
+# required by net-im/discord-0.0.26-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/ghostscript-gpl-10.01.1 cups

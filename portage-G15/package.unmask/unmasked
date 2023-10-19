@@ -1,0 +1,38 @@
+gui-apps/swaybg::guru #swaybg
+gui-apps/wlogout::guru #wlogout
+gui-apps/swaylock-effects::guru #swaylock
+media-libs/imgui::guru #needed for mangohud
+app-backup/grub-btrfs::guru #grub-btrfs
+games-util/mangohud::guru #mangohud
+app-misc/brightnessctl::guru #brightnessctl
+app-misc/nwg-look::guru #nwg-look alter to lxappearance
+x11-apps/xcur2png::guru #required by nwg-look
+gui-apps/swww::guru #swww for switching wallpaper
+sys-process/nvtop::guru
+sys-kernel/modprobed-db::guru #modprobed-db
+
+#hyprland stuff
+#dev-libs/hyprland-protocols::guru
+gui-libs/xdg-desktop-portal-hyprland::guru # 10May-still masked on gentoo repo
+#gui-apps/eww::guru #eww 
+
+
+media-sound/pamixer::alxu #pamixer
+
+games-util/vkBasalt::gogooverlay #vkBasalt
+
+sys-apps/corectrl::ROKO__ #corectrl
+media-fonts/nerd-fonts::thegreatmcpain #nerd-fonts
+
+
+# epson scanner
+media-gfx/epsonscan2-non-free-plugin::slonko
+media-gfx/epsonscan2::slonko
+
+#for xdg-desktop-portal-hyprland (note:masked by gentoo so needed to unmask)
+#dev-qt/qtbase
+#dev-qt/qtwayland
+#dev-qt/qtdeclarative
+#dev-qt/qtshadertools
+
+

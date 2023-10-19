@@ -1,0 +1,7 @@
+media-video/ffmpeg nvenc
+
+# required by media-video/ffmpeg-4.4.4::gentoo[encode,x265]
+# required by media-video/pipewire-0.3.69::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-libs/x265-3.5-r2 abi_x86_32

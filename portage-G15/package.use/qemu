@@ -1,0 +1,34 @@
+app-emulation/qemu QEMU_SOFTMMU_TARGETS: x86_64 QEMU_USER_TARGETS: x86_64
+
+app-emulation/qemu spice usbredir fuse virgl opengl
+
+app-emulation/libvirt firewalld pcap virt-network numa fuse macvtap vepa qemu
+
+# required by app-emulation/virt-manager-4.1.0::gentoo[gui,-test]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.42 usbredir
+# required by app-emulation/libvirt-8.9.0-r2::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.89 script ipv6
+
+# required by app-crypt/swtpm-0.8.0::gentoo[gnutls]
+# required by app-emulation/libvirt-9.4.0-r1::gentoo[qemu]
+# required by dev-python/libvirt-python-9.4.0::gentoo
+# required by app-emulation/libvirt-9.3.0::gentoo[qemu]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by @selected
+# required by @world (argument)
+>=net-libs/gnutls-3.8.0 tools pkcs11
+# required by net-libs/gnutls-3.8.0::gentoo[pkcs11]
+# required by app-crypt/swtpm-0.8.0::gentoo[gnutls]
+# required by app-emulation/libvirt-9.4.0-r1::gentoo[qemu]
+# required by dev-python/libvirt-python-9.4.0::gentoo
+# required by app-emulation/libvirt-9.3.0::gentoo[qemu]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/p11-kit-0.24.1-r1 abi_x86_32

@@ -1,0 +1,8 @@
+media-libs/mesa video_cards_virgl -cups
+
+# required by media-libs/mesa-23.2.0_rc3::gentoo[X]
+# required by net-libs/webkit-gtk-2.40.5-r410::gentoo
+# required by games-util/lutris-0.5.13-r3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/xcb-util-keysyms-0.4.1 abi_x86_32

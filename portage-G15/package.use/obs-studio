@@ -1,0 +1,17 @@
+media-video/obs-studio pipewire speex v4l vlc nvenc 
+sys-apps/xdg-desktop-portal screencast
+
+# required by media-video/obs-studio-29.1.3-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=media-video/ffmpeg-4.4.4-r4 opus
+
+# required by media-libs/opencv-4.8.0-r1::gentoo
+# required by media-plugins/frei0r-plugins-1.8.0::gentoo[facedetect]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=media-video/ffmpeg-6.0-r6 opus
+
+# required by media-video/obs-studio-29.1.3-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=media-video/ffmpeg-4.4.4-r3 opus

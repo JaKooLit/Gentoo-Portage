@@ -1,0 +1,6 @@
+media-sound/easyeffects -doc
+media-libs/rubberband -programs
+
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by easyeffects (argument)
+>=media-libs/rubberband-3.1.2 ladspa

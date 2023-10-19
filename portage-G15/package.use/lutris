@@ -1,0 +1,732 @@
+# required by media-libs/libsdl2-2.26.3::gentoo[X]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=x11-libs/libXcursor-1.2.1 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[X]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=x11-libs/libXi-1.8 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[xcomposite,X]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=x11-libs/libXcomposite-0.4.6 abi_x86_32
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/fontconfig-2.14.2 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libsdl2-2.26.3 abi_x86_32 haptic
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/gnutls-3.8.0 abi_x86_32
+# required by x11-libs/cairo-1.17.8::gentoo
+# required by media-libs/harfbuzz-7.1.0::gentoo[cairo]
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/freetype-2.13.0 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[dbus]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=sys-apps/dbus-1.15.4 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[alsa]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/alsa-lib-1.2.8-r1 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.20.5-r1::gentoo
+# required by media-plugins/gst-plugins-faad-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[aac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/glib-2.76.1 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/gst-plugins-base-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-libav-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/gstreamer-1.20.5 abi_x86_32
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpulse-16.1-r2 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[unwind,-llvm-libunwind]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=sys-libs/libunwind-1.6.2-r1 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[usb]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/libusb-1.0.26 abi_x86_32
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-meta-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-flac-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[flac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/gst-plugins-good-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[-dvd,a52]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-a52dec-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[aac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-faad-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[dts]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-dts-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-libav-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[flac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-flac-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[-dvd,a52]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/gst-plugins-ugly-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[mp3]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-mpg123-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[-dvd,-vcd,mpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-mpeg2dec-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[pulseaudio]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-pulse-1.20.5-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[vaapi]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-vaapi-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[x264]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-x264-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[x264]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/x264-0.0.20220222 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[dts]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/gst-plugins-bad-1.20.5-r1 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[orc]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-lang/orc-0.4.33 abi_x86_32
+# required by media-plugins/gst-plugins-mpeg2dec-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[-dvd,-vcd,mpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libmpeg2-0.5.1-r3 abi_x86_32
+# required by media-plugins/gst-plugins-mpg123-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[mp3]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-sound/mpg123-1.31.3 abi_x86_32
+# required by media-plugins/gst-plugins-flac-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[flac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/flac-1.4.2-r1 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[ogg]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libogg-1.3.5-r1 abi_x86_32
+# required by media-plugins/gst-plugins-libav-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-video/ffmpeg-4.4.3 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[dav1d]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/dav1d-1.1.0 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[encode,mp3]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-sound/lame-3.100-r3 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[encode,xvid]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/xvid-1.3.7-r1 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[pulseaudio]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-plugins/gst-plugins-pulse-1.20.5-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[pulseaudio]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-sound/pulseaudio-16.1 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=gnome-base/librsvg-2.55.2 abi_x86_32
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.17.8 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[vorbis]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libvorbis-1.3.7-r1 abi_x86_32
+# required by media-video/ffmpeg-4.4.3::gentoo[X]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libXv-1.0.12 abi_x86_32
+# required by x11-libs/cairo-1.17.8::gentoo
+# required by media-libs/harfbuzz-7.1.0::gentoo[cairo]
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/lzo-2.10 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.10-r1::gentoo
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libpng-1.6.39 abi_x86_32
+# required by x11-libs/cairo-1.17.8::gentoo
+# required by media-libs/harfbuzz-7.1.0::gentoo[cairo]
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=x11-libs/pixman-0.42.2 abi_x86_32
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/gdk-pixbuf-2.42.10-r1 abi_x86_32
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/harfbuzz-7.1.0 abi_x86_32
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/pango-1.50.14 abi_x86_32
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/fribidi-1.0.12 abi_x86_32
+# required by x11-libs/pango-1.50.14::gentoo[X]
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=x11-libs/libXft-2.3.6 abi_x86_32
+# required by media-libs/harfbuzz-7.1.0::gentoo[graphite]
+# required by x11-libs/pango-1.50.14::gentoo
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[pango]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-gfx/graphite2-1.3.14_p20210810-r3 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[-gles2,opengl]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libjpeg-turbo-2.1.5.1 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.10-r1::gentoo[tiff]
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/tiff-4.5.0-r2 abi_x86_32
+# required by media-plugins/gst-plugins-dts-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[dts]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/libdca-0.0.7 abi_x86_32
+# required by media-plugins/gst-plugins-faad-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[aac]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/faad2-2.10.1 abi_x86_32
+# required by media-plugins/gst-plugins-a52dec-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[-dvd,a52]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/a52dec-0.7.4-r8 abi_x86_32
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libsndfile-1.2.0 abi_x86_32
+# required by media-libs/libpulse-16.1-r2::gentoo[asyncns]
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-video/pipewire-0.3.67::gentoo[extra]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/opus-1.3.1-r4 abi_x86_32
+# required by sys-apps/systemd-253.1::gentoo
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=sys-libs/libcap-2.67 abi_x86_32
+# required by sys-libs/libcap-2.67::gentoo[pam]
+# required by sys-apps/systemd-253.1::gentoo
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=sys-libs/pam-1.5.2-r3 abi_x86_32
+# required by media-libs/gst-plugins-base-1.20.5::gentoo[-gles2,opengl]
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-libs/graphene-1.10.8 abi_x86_32
+# required by dev-libs/glib-2.76.1::gentoo
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/libpcre2-10.42-r1 abi_x86_32
+# required by sys-apps/systemd-253.1::gentoo
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=sys-apps/util-linux-2.38.1-r2 abi_x86_32
+# required by net-libs/gnutls-3.8.0::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libtasn1-4.19.0 abi_x86_32
+# required by net-libs/gnutls-3.8.0::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libunistring-1.1-r1 abi_x86_32
+# required by net-libs/gnutls-3.8.0::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/nettle-3.8.1 abi_x86_32
+# required by dev-libs/nettle-3.8.1::gentoo[gmp]
+# required by net-libs/gnutls-3.8.0::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/gmp-6.2.1-r5 abi_x86_32
+# required by net-libs/gnutls-3.8.0::gentoo[idn]
+# required by media-video/ffmpeg-4.4.3::gentoo[-openssl,gnutls]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-dns/libidn2-2.3.4 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[pipewire]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-plugins/gst-plugins-libav-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[ffmpeg]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-video/pipewire-0.3.67 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[wayland]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=x11-libs/libxkbcommon-1.5.0 abi_x86_32
+# required by dev-libs/glib-2.76.1::gentoo
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[udev]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=virtual/libudev-232-r7 abi_x86_32
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=sys-apps/systemd-253.1 abi_x86_32
+# required by sys-apps/systemd-253.1::gentoo[gcrypt]
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/libgcrypt-1.10.1-r3 abi_x86_32
+# required by sys-apps/systemd-253.1::gentoo[lz4]
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=app-arch/lz4-1.9.4 abi_x86_32
+# required by dev-libs/libgcrypt-1.10.1-r3::gentoo
+# required by sys-apps/systemd-253.1::gentoo[gcrypt]
+# required by virtual/libudev-232-r7::gentoo
+# required by app-emulation/wine-staging-8.4::gentoo[udev]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=dev-libs/libgpg-error-1.46-r1 abi_x86_32
+# required by dev-libs/glib-2.76.1::gentoo
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by media-libs/libsdl2-2.26.3::gentoo[opengl]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=virtual/glu-9.0-r2 abi_x86_32
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[opengl]
+# required by media-video/ffmpeg-4.4.3::gentoo[sdl]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+>=media-libs/glu-9.0.2 abi_x86_32
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/rust-1.68.0 abi_x86_32
+# required by virtual/rust-1.68.0::gentoo
+# required by gnome-base/librsvg-2.55.2::gentoo
+# required by media-video/ffmpeg-4.4.3::gentoo[svg]
+# required by media-video/pipewire-0.3.67::gentoo[ffmpeg]
+# required by media-libs/libpulse-16.1-r2::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by media-libs/libsdl2-2.26.3::gentoo[pulseaudio]
+# required by media-sound/mpg123-1.31.3::gentoo[sdl]
+# required by media-libs/libsndfile-1.2.0::gentoo[-minimal]
+# required by media-libs/libbs2b-3.1.0-r2::gentoo
+# required by media-sound/easyeffects-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lang/rust-bin-1.68.0 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-plugins/gst-plugins-cdparanoia-1.20.5 abi_x86_32
+# required by media-plugins/gst-plugins-cdparanoia-1.20.5::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.5::gentoo[cdda]
+# required by app-emulation/wine-staging-8.4::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo
+# required by app-emulation/winetricks-20230212::gentoo
+# required by winetricks (argument)
+>=media-sound/cdparanoia-3.10.2-r7 abi_x86_32
+
+# required by net-libs/webkit-gtk-2.40.2-r410::gentoo[lcms]
+# required by games-util/lutris-0.5.13-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/lcms-2.15 abi_x86_32

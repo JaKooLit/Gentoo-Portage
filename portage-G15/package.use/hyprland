@@ -1,0 +1,8 @@
+gui-libs/wlroots x11-backend
+
+# required by dev-qt/qtwayland-6.5.1-r1::gentoo
+# required by gui-libs/xdg-desktop-portal-hyprland-0.4.0::guru
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.5.1-r1 egl
+

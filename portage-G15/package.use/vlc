@@ -1,0 +1,6 @@
+media-video/vlc -vaapi aom vpx matroska
+
+# vlc installation
+# required by media-video/vlc-3.0.18::gentoo
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.13-r1 minizip

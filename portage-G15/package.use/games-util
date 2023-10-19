@@ -1,0 +1,6 @@
+# additional apps needed for games
+
+games-util/gamemode abi_x86_32
+games-util/mangohud abi_x86_32 
+games-util/vkBasalt abi_x86_32
+

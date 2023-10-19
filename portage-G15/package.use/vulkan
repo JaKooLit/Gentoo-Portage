@@ -1,0 +1,8 @@
+dev-util/vulkan-tools abi_x86_32
+media-libs/vulkan-layers abi_x86_32
+media-libs/vulkan-loader abi_x86_32 layers
+
+
+# required by vulkan-layers else dependency conflict
+dev-util/spirv-tools abi_x86_32
+dev-util/glslang abi_x86_32

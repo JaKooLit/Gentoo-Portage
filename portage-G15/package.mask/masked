@@ -1,0 +1,22 @@
+dev-lang/rust
+dev-libs/openssl-compat
+
+# masked
+*/*::FireBurn
+*/*::guru
+*/*::ace
+*/*::gogooverlay
+*/*::gentoo-zh
+*/*::ROKO__
+*/*::farmboy0
+*/*::phoenix591
+*/*::thegreatmcpain
+*/*::src_prepare-overlay
+*/*::wayland-desktop
+*/*::useless-overlay #waybar-hyprland
+*/*::alxu #pamixer
+
+*/*::slonko #epsonscan2
+
+
+#app-text/xmlto

@@ -1,0 +1,10 @@
+# required by media-libs/mesa-23.0.0-r1::gentoo[video_cards_radeonsi,-video_cards_radeon,-video_cards_r300,-video_cards_r600]
+# required by media-libs/libepoxy-1.5.10-r1::gentoo[egl]
+# required by x11-libs/gtk+-3.24.37::gentoo
+# required by gnome-extra/polkit-gnome-0.105-r2::gentoo
+# required by sys-auth/polkit-122::gentoo[gtk]
+# required by net-misc/modemmanager-1.18.12::gentoo[policykit]
+# required by net-misc/networkmanager-1.42.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.115 video_cards_radeon

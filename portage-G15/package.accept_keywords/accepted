@@ -1,0 +1,20 @@
+*/*::steam-overlay
+
+net-libs/webkit-gtk -~amd64
+media-sound/easyeffects -~amd64
+dev-libs/openssl -~amd64
+dev-lang/python -~amd64
+dev-lang/ruby -~amd64
+dev-lang/go -~amd64 
+dev-lang/go-bootstrap -~amd64
+
+
+#dev-cpp/abseil-cpp -~amd64
+#dev-libs/boost -~amd64
+
+sys-apps/corectrl **
+
+
+
+
+

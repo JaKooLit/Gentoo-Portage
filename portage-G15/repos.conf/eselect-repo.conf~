@@ -1,0 +1,41 @@
+# created by eselect-repo
+
+[gentoo]
+location = /var/db/repos/gentoo
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gentoo.git
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/guru.git
+
+[steam-overlay]
+location = /var/db/repos/steam-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/steam-overlay.git
+
+[menelkir]
+location = /var/db/repos/menelkir
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/menelkir.git
+
+[gogooverlay]
+location = /var/db/repos/gogooverlay
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gogooverlay.git
+
+[farmboy0]
+location = /var/db/repos/farmboy0
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/farmboy0.git
+
+[ROKO__]
+location = /var/db/repos/ROKO__
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/ROKO__.git
+
+[slonko]
+location = /var/db/repos/slonko
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/slonko.git

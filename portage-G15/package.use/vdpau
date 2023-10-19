@@ -1,0 +1,2 @@
+#required by mesa (vdpau)
+>=x11-libs/libvdpau-1.5 abi_x86_32

@@ -1,0 +1,4 @@
+# either to include gles2 or remove wayland
+media-libs/libsdl2 gles2
+
+

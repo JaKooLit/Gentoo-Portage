@@ -1,0 +1,8 @@
+net-misc/networkmanager -iwd -bluetooth -modemmanager -ppp
+
+gnome-extra/nm-applet appindicator
+
+# required by gnome-extra/nm-applet-1.32.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-misc/networkmanager-1.42.6-r1 modemmanager
