@@ -4,6 +4,7 @@ x11-misc/pywal ~amd64
 gnome-extra/yad ~amd64
 sys-fs/duf ~amd64
 app-backup/grub-btrfs ~amd64
+gui-libs/xdg-desktop-portal-hyprland ~amd64
 
 gui-apps/hypridle ~amd64
 dev-cpp/sdbus-c++ ~amd64

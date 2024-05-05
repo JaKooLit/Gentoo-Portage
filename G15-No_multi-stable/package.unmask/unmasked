@@ -11,6 +11,7 @@ app-misc/brightnessctl::guru
 sys-process/nvtop::guru
 app-misc/cliphist::guru
 gnome-extra/yad::guru
+gui-libs/xdg-desktop-portal-hyprland::guru
 
 app-misc/nwg-look::guru
 x11-apps/xcur2png::guru
