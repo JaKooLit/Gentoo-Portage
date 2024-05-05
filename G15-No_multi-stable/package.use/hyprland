@@ -1,0 +1,4 @@
+# required by media-libs/mesa-24.0.4::gentoo[-video_cards_r600,-video_cards_radeon,-video_cards_r300,video_cards_radeonsi]
+# required by gui-wm/hyprland-0.38.1::gentoo
+# required by hyprland (argument)
+>=x11-libs/libdrm-2.4.120 video_cards_radeon

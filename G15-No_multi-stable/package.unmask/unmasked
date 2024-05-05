@@ -1,0 +1,19 @@
+# Unmasked
+app-backup/grub-btrfs::guru
+x11-misc/pywal::guru
+gui-apps/wlogout::guru
+gui-apps/hypridle::guru
+gui-apps/hyprlock::guru
+gui-apps/swww::guru
+gui-apps/swaync::guru
+gui-apps/rofi-wayland::guru
+app-misc/brightnessctl::guru
+sys-process/nvtop::guru
+app-misc/cliphist::guru
+gnome-extra/yad::guru
+
+app-misc/nwg-look::guru
+x11-apps/xcur2png::guru
+
+net-print/epson-inkjet-printer-escpr2::escpr2
+media-gfx/epsonscan2-non-free-plugin::slonko

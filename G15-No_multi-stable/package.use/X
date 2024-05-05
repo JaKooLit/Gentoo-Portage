@@ -1,0 +1,11 @@
+
+
+
+# required by x11-misc/xdg-utils-1.2.1-r1::gentoo
+# required by net-print/cups-2.4.7-r2::gentoo[X]
+# required by x11-libs/gtk+-3.24.41::gentoo[cups]
+# required by media-libs/libcanberra-0.30-r7::gentoo[gtk3]
+# required by media-video/pipewire-1.0.3::gentoo[X]
+# required by @selected
+# required by @world (argument)
+>=app-text/xmlto-0.0.28-r11 text

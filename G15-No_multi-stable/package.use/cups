@@ -1,0 +1,11 @@
+net-print/cups -usb zeroconf
+net-print/cups-meta pdf zeroconf -foomatic
+net-print/epson-inkjet-printer-escpr2 escprlib
+media-gfx/epsonscan2 bundled-libs
+
+# required by net-print/cups-meta-1::gentoo
+# required by cups-meta (argument)
+>=net-print/cups-2.4.7-r2 zeroconf
+# required by net-print/cups-meta-1::gentoo
+# required by cups-meta (argument)
+>=net-print/libcupsfilters-2.0.0-r4 pdf

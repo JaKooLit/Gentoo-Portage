@@ -1,0 +1,7 @@
+# required by dev-qt/qtwayland-5.15.13::gentoo
+# required by kde-plasma/kwayland-5.115.0::gentoo
+# required by kde-plasma/kwayland-integration-5.27.11::gentoo
+# required by kde-frameworks/kwindowsystem-5.115.0::gentoo[wayland]
+# required by x11-themes/kvantum-1.0.10::gentoo
+# required by kvantum (argument)
+>=dev-qt/qtgui-5.15.13 egl

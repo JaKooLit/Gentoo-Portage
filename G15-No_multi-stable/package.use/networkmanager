@@ -1,0 +1,8 @@
+net-misc/networkmanager -ppp -iwd -modemmanager -bluetooth
+gnome-extra/nm-applet appindicator
+
+# required by gui-libs/gtk-4.12.5::gentoo[gstreamer]
+# required by net-libs/libnma-1.10.6-r1::gentoo
+# required by gnome-extra/nm-applet-1.36.0::gentoo
+# required by nm-applet (argument)
+>=media-libs/gst-plugins-base-1.22.11 opengl

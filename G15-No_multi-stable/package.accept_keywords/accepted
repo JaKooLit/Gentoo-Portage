@@ -1,0 +1,29 @@
+gui-wm/hyprland ~amd64
+gui-libs/hyprcursor ~amd64
+x11-misc/pywal ~amd64
+gnome-extra/yad ~amd64
+sys-fs/duf ~amd64
+app-backup/grub-btrfs ~amd64
+
+gui-apps/hypridle ~amd64
+dev-cpp/sdbus-c++ ~amd64
+
+gui-apps/hyprlock ~amd64
+gui-apps/hyprcursor ~amd64
+gui-apps/swww ~amd64
+gui-apps/rofi-wayland ~amd64
+gui-apps/swaync ~amd64
+gui-apps/wlogout ~amd64
+app-misc/brightnessctl ~amd64
+
+app-misc/nwg-look ~amd64
+x11-apps/xcur2png ~amd64
+
+app-misc/cliphist ~amd64
+x11-themes/kvantum ~amd64
+sys-process/nvtop ~amd64
+
+media-gfx/epsonscan2 ~amd64
+media-gfx/epsonscan2-non-free-plugin ~amd64
+
+media-video/obs-studio ~amd64

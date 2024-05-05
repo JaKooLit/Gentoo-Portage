@@ -1,0 +1,13 @@
+case "${EBUILD_PHASE}" in
+        preinst) 
+                if [ -z "${REPLACING_VERSIONS}" ]; then
+                        DESC="Installing ${CATEGORY}/${PF}"
+                else
+                        DESC="Upgrading to ${CATEGORY}/${PF} replacing version(s) ${REPLACING_VERSIONS}"
+                fi
+                NUMBER=`snapper create -t pre -p -d "${DESC}" -c number`
+                ;;
+        postinst) 
+                snapper create -t post --pre-number $NUMBER -d "${DESC}" -c number
+                ;;
+esac

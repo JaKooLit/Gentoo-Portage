@@ -1,0 +1,10 @@
+
+
+
+
+# required by x11-terms/kitty-0.33.1::gentoo
+# required by kitty (argument)
+>=media-libs/libglvnd-1.7.0 X
+# required by x11-terms/kitty-0.33.1::gentoo
+# required by kitty (argument)
+>=x11-libs/libxkbcommon-1.6.0 X

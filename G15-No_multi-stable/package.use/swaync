@@ -1,0 +1,5 @@
+# required by gui-apps/swaync-0.10.1-r1::guru
+# required by swaync (argument)
+>=gui-libs/gtk-layer-shell-0.8.2 vala introspection
+# required by media-sound/pulseaudio-daemon-17.0-r1::gentoo
+>=media-libs/libpulse-17.0 X

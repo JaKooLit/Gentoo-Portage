@@ -1,0 +1,4 @@
+media-plugins/audacious-plugins aac flac lame mp3 sndfile
+
+media-video/pipewire sound-server extra
+media-sound/pulseaudio -daemon

@@ -1,0 +1,12 @@
+gui-apps/waybar experimental mpris evdev mpd network sndio tray upower wifi
+
+# required by dev-cpp/gtkmm-3.24.9::gentoo
+# required by gui-apps/waybar-0.9.24::gentoo
+# required by waybar (argument)
+>=x11-libs/gtk+-3.24.41 -X
+# required by dev-cpp/cairomm-1.14.4::gentoo
+# required by dev-cpp/pangomm-2.46.3::gentoo
+# required by dev-cpp/gtkmm-3.24.9::gentoo
+# required by gui-apps/waybar-0.9.24::gentoo
+# required by waybar (argument)
+>=x11-libs/cairo-1.18.0 -X

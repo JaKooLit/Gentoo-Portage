@@ -1,0 +1,9 @@
+# required by dev-qt/qtwayland-6.7.0::gentoo
+>=dev-qt/qtbase-6.7.0-r1 xml opengl
+
+# required by dev-qt/qtwayland-6.7.0::gentoo
+>=dev-qt/qtbase-6.7.0-r2 opengl
+# required by dev-qt/qttranslations-6.7.0::gentoo
+# required by dev-qt/qtbase-6.7.0-r2::gentoo[nls]
+# required by dev-qt/qtwayland-6.7.0::gentoo
+>=dev-qt/qttools-6.7.0 opengl
