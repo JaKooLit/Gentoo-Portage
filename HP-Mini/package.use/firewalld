@@ -1,0 +1,3 @@
+# required by net-firewall/firewalld-2.0.0::gentoo[-python_single_target_python3_10,nftables,python_single_target_python3_11]
+# required by firewalld (argument)
+>=net-firewall/nftables-1.0.8-r2 json python

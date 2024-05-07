@@ -1,0 +1,8 @@
+gui-apps/waybar experimental hyprland mpd network sndio tray wifi evdev mpris
+
+# required by dev-cpp/cairomm-1.14.4::gentoo
+# required by dev-cpp/pangomm-2.46.3::gentoo
+# required by dev-cpp/gtkmm-3.24.8::gentoo
+# required by gui-apps/waybar-0.9.22::gentoo
+# required by gui-apps/waybar (argument)
+>=x11-libs/cairo-1.17.8 -X

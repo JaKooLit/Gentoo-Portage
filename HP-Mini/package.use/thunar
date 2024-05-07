@@ -1,0 +1,23 @@
+xfce-base/tumbler jpeg raw
+media-video/ffmpegthumbnailer jpeg png
+
+# required by xfce-base/tumbler-4.18.1::gentoo[raw]
+# required by tumbler (argument)
+>=media-libs/libopenraw-0.3.6 gtk
+
+# required by xfce-base/xfce4-panel-4.18.5::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.18.7::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by gnome-base/gnome-keyring-42.1-r2::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+>=app-crypt/gcr-3.41.1-r2:0 gtk
+
+# required by xfce-base/thunar-volman-4.18.0::gentoo
+# required by thunar-volman (argument)
+>=xfce-base/thunar-4.18.7 udisks
+# required by xfce-base/thunar-4.18.7::gentoo[udisks]
+# required by xfce-base/thunar-volman-4.18.0::gentoo
+# required by thunar-volman (argument)
+>=gnome-base/gvfs-1.50.6 udisks

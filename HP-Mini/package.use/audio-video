@@ -1,0 +1,12 @@
+media-libs/libsndfile minimal
+media-sound/mpg123 -pulseaudio
+
+media-video/pipewire sound-server extra pipewire-alsa gsettings
+media-sound/pulseaudio -daemon
+
+media-plugins/audacious-plugins aac flac lame mp3 sndfile
+
+
+# required by media-video/mpv-0.36.0-r1::gentoo[vulkan]
+# required by mpv (argument)
+>=media-libs/vulkan-loader-1.3.261 X

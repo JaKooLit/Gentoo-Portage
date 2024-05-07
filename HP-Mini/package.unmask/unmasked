@@ -1,0 +1,32 @@
+# guru
+app-backup/grub-btrfs::guru
+sys-kernel/modprobed-db::guru
+#gui-apps/swaylock-effects::guru
+gui-apps/rofi-wayland::guru
+x11-misc/pywal::guru
+gui-apps/wlogout::guru
+gnome-extra/yad::guru
+sys-process/nvtop::guru
+mpv-plugin/mpv-mpris::guru
+gui-apps/swaync::guru
+gui-apps/hypridle::guru
+gui-apps/hyprlock::guru
+
+# nwg-look
+app-misc/nwg-look::guru
+x11-apps/xcur2png::guru
+
+# swww
+gui-apps/swww::guru
+
+# swayimg
+media-gfx/swayimg::guru
+
+# menelkir
+#media-sound/pamixer::menelkir #for volume
+#pamixer now build from source
+
+# cliphist
+gui-apps/cliphist::x0rzavi
+
+net-im/webcord::thegreatmcpain

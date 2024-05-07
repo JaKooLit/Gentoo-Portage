@@ -1,0 +1,7 @@
+# These are the apps that needed X so other apps will work
+
+# required by x11-libs/pango-1.50.14::gentoo
+# required by net-im/discord-0.0.36::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.18.0 X

@@ -1,0 +1,12 @@
+# qt-apps 
+#
+dev-qt/qtwidgets gtk
+x11-libs/libxkbcommon X
+dev-qt/qtbase opengl
+dev-qt/qttools opengl
+
+dev-qt/qtgui egl
+
+# required by dev-qt/qttools-6.7.0::gentoo[qdbus]
+# required by dev-qt/qttranslations-6.7.0::gentoo
+>=dev-qt/qtbase-6.7.0-r2 xml

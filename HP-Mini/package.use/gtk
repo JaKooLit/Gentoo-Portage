@@ -1,0 +1,7 @@
+x11-themes/gtk-engines-murrine -themes
+
+# required by gui-libs/gtk-4.12.5-r1::gentoo[gstreamer]
+# required by app-arch/file-roller-44::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/gst-plugins-base-1.22.11 opengl

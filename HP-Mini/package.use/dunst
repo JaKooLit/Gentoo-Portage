@@ -1,0 +1,9 @@
+# required by x11-misc/dunst-1.9.2::gentoo
+# required by virtual/notification-daemon-0::gentoo[-gnome,-kde]
+# required by x11-libs/libnotify-0.8.2::gentoo
+>=x11-libs/pango-1.50.14 X
+# required by x11-misc/xdg-utils-1.1.3_p20210805-r1::gentoo
+# required by x11-misc/dunst-1.9.2::gentoo
+# required by virtual/notification-daemon-0::gentoo[-gnome,-kde]
+# required by x11-libs/libnotify-0.8.2::gentoo
+>=app-text/xmlto-0.0.28-r11 text

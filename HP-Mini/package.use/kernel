@@ -1,0 +1,4 @@
+sys-kernel/gentoo-sources experimental
+sys-kernel/linux-firmware -savedconfig initramfs deduplicate
+sys-firmware/intel-microcode initramfs
+sys-kernel/installkernel dracut

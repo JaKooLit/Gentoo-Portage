@@ -1,0 +1,46 @@
+# grub-btrfs for snapper
+app-backup/grub-btrfs ~amd64
+
+# for hyprland
+gui-wm/hyprland ~amd64
+dev-libs/libliftoff ~amd64
+media-libs/libdisplay-info ~amd64
+dev-libs/hyprland-protocols ~amd64
+x11-themes/kvantum ~amd64
+gui-apps/waybar ~amd64
+x11-libs/libdrm ~amd64
+gui-libs/hyprcursor ~amd64
+
+# guru
+sys-kernel/modprobed-db ~amd64
+app-misc/nwg-look ~amd64
+x11-apps/xcur2png ~amd64
+mpv-plugin/mpv-mpris ~amd64
+gui-apps/swaync ~amd64
+#gui-apps/swaylock-effects **
+gui-apps/swww ~amd64
+gui-apps/cliphist ~amd64
+gui-apps/hyprlock ~amd64
+
+#hypridle
+gui-apps/hypridle ~amd64
+dev-cpp/sdbus-c++ ~amd64
+
+# hyfetch
+app-misc/hyfetch ~amd64
+
+# rofi-wayland
+gui-apps/rofi-wayland ~amd64
+
+# wlogout
+gui-apps/wlogout ~amd64
+
+# yad
+gnome-extra/yad ~amd64
+sys-process/nvtop ~amd64
+sys-fs/duf ~amd64
+gui-apps/wf-recorder ~amd64
+media-video/obs-studio ~amd64
+
+net-im/webcord ~amd64
+dev-util/electron ~amd64
